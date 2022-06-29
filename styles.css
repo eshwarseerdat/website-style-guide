@@ -1,0 +1,99 @@
+html {
+  font-size: 16px;
+}
+
+/* * {
+  border: 1px solid red;
+} */
+
+body {
+  width: 80%;
+  margin: auto;
+  /* background-color: #f2f6c5; */
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+section {
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  flex: 1 1 100%;
+}
+
+.styles {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.styles article,
+.styles h2 {
+  flex: 1 1 100%;
+  text-align: center;
+  margin: 1%;
+}
+
+.styles h2 {
+  align-self: center;
+}
+
+.bg-color,
+.heading-color,
+.link-color {
+  height: 100px;
+}
+
+.bg-color {
+  background-color: #f2f6c5;
+}
+
+.heading-color {
+  background-color: #cac6f6;
+}
+
+.link-color {
+  background-color: #55e3a8;
+}
+
+.monts p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.heading h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  margin: 0.1rem;
+}
+
+.paragraph p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+}
+
+.links a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-style: italic;
+  color: #55e3a8;
+}
+
+@media (min-width: 1000px) {
+  .styles {
+    flex-wrap: nowrap;
+  }
+}
